@@ -1,0 +1,71 @@
+body {
+	font-family: Inter, sans-serif;
+}
+
+.checklist-block {
+	max-width: 743px;
+	height: 91px;
+	background-color: #3579f5;
+	border-radius: 10px;
+	color: white;
+	position: relative;
+}
+
+.checklist-circle {
+	border: 1px solid #ffffff80;
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 16px;
+	left: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.checklist-circle > p {
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	margin: auto 0;
+}
+
+.checklist-label {
+	position: absolute;
+	top: 12px;
+	left: 98px;
+	border-radius: 40px;
+	width: 76px;
+	height: 18px;
+	background: #2364db;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.checklist-status {
+	position: absolute;
+	top: 34px;
+	left: 98px;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.checklist-next-action {
+	position: absolute;
+	top: 58px;
+	left: 98px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.open-checklist-button {
+	position: absolute;
+  height: 40px;
+	top: 26px;
+	left: 555px;
+	border-radius: 6px;
+	padding: 10px 32px;
+	border: none;
+}
